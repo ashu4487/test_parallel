@@ -7,6 +7,7 @@ from multiprocessing import Pool
 import numpy
 
 def sqrt(x):
+    x=x+1
     return numpy.sqrt(x)
 if __name__ == '__main__':
     pool = Pool()
